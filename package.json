@@ -1,0 +1,72 @@
+{
+  "_args": [
+    [
+      "git://github.com/tanepiper/hapi-auth-jwt.git#hapi-17",
+      "C:\\Projects\\Loyalty2"
+    ]
+  ],
+  "_from": "git://github.com/tanepiper/hapi-auth-jwt.git#hapi-17",
+  "_id": "hapi-auth-jwt@git://github.com/tanepiper/hapi-auth-jwt.git#19c3857ee5ebfbd9fecfcf6409105fe0d117d5b7",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/hapi-auth-jwt",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "git://github.com/tanepiper/hapi-auth-jwt.git#hapi-17",
+    "rawSpec": "git://github.com/tanepiper/hapi-auth-jwt.git#hapi-17",
+    "saveSpec": "git://github.com/tanepiper/hapi-auth-jwt.git#hapi-17",
+    "fetchSpec": "git://github.com/tanepiper/hapi-auth-jwt.git",
+    "gitCommittish": "hapi-17"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "git://github.com/tanepiper/hapi-auth-jwt.git#19c3857ee5ebfbd9fecfcf6409105fe0d117d5b7",
+  "_spec": "git://github.com/tanepiper/hapi-auth-jwt.git#hapi-17",
+  "_where": "C:\\Projects\\Loyalty2",
+  "author": {
+    "name": "Ryan Fitzgerald",
+    "email": "ryan.fitz1@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/ryanfitz/hapi-auth-jwt/issues"
+  },
+  "dependencies": {
+    "boom": "7.x.x",
+    "hoek": "5.x.x",
+    "jsonwebtoken": "8.x.x"
+  },
+  "description": "JSON Web Token (JWT) authentication plugin",
+  "devDependencies": {
+    "code": "4.x.x",
+    "hapi": "17.x.x",
+    "jshint": "2.x.x",
+    "jshint-stylish": "2.x.x",
+    "lab": "14.x.x"
+  },
+  "engines": {
+    "node": ">=0.10.30"
+  },
+  "homepage": "https://github.com/ryanfitz/hapi-auth-jwt#readme",
+  "keywords": [
+    "hapi",
+    "plugin",
+    "auth",
+    "JWT"
+  ],
+  "license": "BSD-3-Clause",
+  "main": "index",
+  "name": "hapi-auth-jwt",
+  "peerDependencies": {
+    "hapi": ">=10.x.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ryanfitz/hapi-auth-jwt.git"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "version": "4.0.0"
+}
